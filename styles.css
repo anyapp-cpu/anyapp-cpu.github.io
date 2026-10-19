@@ -75,6 +75,7 @@ a:focus-visible { outline: 2px solid var(--control); outline-offset: 5px; }
 .contact-button { display: inline-flex; align-items: center; justify-content: center; padding: 10px 16px; border-radius: 12px; color: white; background: var(--control); font-size: 16px; font-weight: 500; line-height: 22px; transition: background 180ms ease, transform 180ms ease; }
 .contact-button:hover { background: #292c30; transform: translateY(-2px); }
 .contact-button:active { transform: translateY(0); }
+.intro > .contact-button { margin-top: 8px; }
 
 .projects { display: flex; flex-direction: column; gap: 64px; padding: 96px var(--gutter) 20px; }
 .project-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; gap: 32px; min-width: 0; }
