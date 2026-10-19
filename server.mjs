@@ -5,13 +5,13 @@ import { resolve, extname, sep } from 'node:path';
 
 const root = fileURLToPath(new URL('.', import.meta.url));
 const port = Number(process.env.PORT || 5173);
-const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.ttf': 'font/ttf' };
+const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.jpg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.ttf': 'font/ttf' };
 
 createServer(async (req, res) => {
   try {
     const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
     const file = resolve(root, '.' + (pathname === '/' ? '/index.html' : pathname));
-    if (!file.startsWith(root.endsWith(sep) ? root : root + sep) || !['.html', '.css', '.js', '.jpg', '.png', '.svg', '.ttf'].includes(extname(file))) {
+    if (!file.startsWith(root.endsWith(sep) ? root : root + sep) || !Object.hasOwn(types, extname(file))) {
       res.writeHead(404).end('Not found');
       return;
     }

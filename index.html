@@ -16,7 +16,7 @@
     <header class="header">
       <nav class="navigation" aria-label="Основная навигация">
         <a class="nav-item is-current" href="#top" aria-current="page">Главная</a>
-        <span class="nav-item" role="link" aria-disabled="true">Работы</span>
+        <a class="nav-item" href="#projects">Работы</a>
         <span class="nav-item" role="link" aria-disabled="true">Обо&nbsp;мне</span>
       </nav>
       <div class="header-contacts">
@@ -42,35 +42,127 @@
         </div>
       </section>
 
-      <section class="projects" aria-label="Кейсы — скоро появятся">
-        <div class="project-column">
-          <article class="project-card">
-            <div class="project-cover cover-01"><span class="cover-number" aria-hidden="true">01</span><span class="cover-caption">Скоро здесь</span></div>
-            <div class="project-description"><p class="project-label">Кейс · Скоро</p><h2>Проект 01</h2></div>
-          </article>
-          <article class="project-card">
-            <div class="project-cover project-cover-tall cover-03"><span class="cover-number" aria-hidden="true">03</span><span class="cover-caption">Скоро здесь</span></div>
-            <div class="project-description"><p class="project-label">Кейс · Скоро</p><h2>Проект 03</h2></div>
-          </article>
-          <article class="project-card">
-            <div class="project-cover project-cover-tall cover-05"><span class="cover-number" aria-hidden="true">05</span><span class="cover-caption">Скоро здесь</span></div>
-            <div class="project-description"><p class="project-label">Кейс · Скоро</p><h2>Проект 05</h2></div>
-          </article>
-        </div>
-        <div class="project-column">
-          <article class="project-card">
-            <div class="project-cover project-cover-tall cover-02"><span class="cover-number" aria-hidden="true">02</span><span class="cover-caption">Скоро здесь</span></div>
-            <div class="project-description"><p class="project-label">Кейс · Скоро</p><h2>Проект 02</h2></div>
-          </article>
-          <article class="project-card">
-            <div class="project-cover project-cover-tall cover-04"><span class="cover-number" aria-hidden="true">04</span><span class="cover-caption">Скоро здесь</span></div>
-            <div class="project-description"><p class="project-label">Кейс · Скоро</p><h2>Проект 04</h2></div>
-          </article>
-          <article class="project-card">
-            <div class="project-cover cover-06"><span class="cover-number" aria-hidden="true">06</span><span class="cover-caption">Скоро здесь</span></div>
-            <div class="project-description"><p class="project-label">Кейс · Скоро</p><h2>Проект 06</h2></div>
-          </article>
-        </div>
+      <section class="projects" id="projects" aria-label="Кейсы">
+        <article class="project-card" id="case-gocomment">
+          <a class="project-cover" href="https://buildin.ai/share/0699a63b-09b0-47ae-bf6b-cb6d53e69551" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: GoComment — сервис для комментирования сайтов">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/gocomment-still.webp">
+            <img src="assets/cases/gocomment.webp" alt="GoComment — виджет комментариев и интерфейс управления проектами" width="1200" height="750" loading="lazy" decoding="async">
+            </picture>
+            <span class="cover-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-description">
+            <h2>GoComment — сервис для комментирования сайтов</h2>
+            <ul class="project-tags" aria-label="Категории проекта"><li>B2B</li><li>SaaS</li><li>Личный кабинет</li><li>Админ‑панель</li><li>Web</li><li>Mobile</li></ul>
+            <p class="project-summary">Запускала с&nbsp;нуля и&nbsp;развивала GoComment — сервис для комментирования сайтов через виджет или расширение браузера. Спроектировала админ‑панель со статистикой и&nbsp;управлением проектами, участниками и&nbsp;подпиской. Создала и&nbsp;поддерживала библиотеку компонентов.</p>
+            <div class="project-result">
+              <h3>Результат</h3>
+              <p>Сервис привлёк <strong>первые сотни пользователей</strong>. Команда заключила контракты с&nbsp;веб‑студиями и&nbsp;агентствами в&nbsp;России и&nbsp;за&nbsp;рубежом.</p>
+            </div>
+            <div class="project-actions">
+              <a class="case-link" href="https://buildin.ai/share/0699a63b-09b0-47ae-bf6b-cb6d53e69551" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: GoComment — сервис для комментирования сайтов">Смотреть кейс <span aria-hidden="true">↗</span></a>
+              <a class="product-link" href="https://www.gocomment.tools/" target="_blank" rel="noopener noreferrer">Сайт продукта <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" id="case-vtb">
+          <div class="project-cover">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/vtb-still.webp">
+            <img src="assets/cases/vtb.webp" alt="Обложка проекта ВТБ с замком и надписью NDA" width="1200" height="750" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="project-description">
+            <p class="project-status"><span aria-hidden="true"></span>Текущее место работы</p>
+            <h2>ВТБ — контактный центр для малого и&nbsp;среднего бизнеса</h2>
+            <ul class="project-tags" aria-label="Категории проекта"><li>Fintech</li><li>B2B</li><li>SaaS</li><li>CRM</li><li>Личный кабинет</li><li>Админ‑панель</li><li>Web</li></ul>
+            <p class="project-summary">Работаю над интерфейсами контактного центра ВТБ. Наладила взаимодействие с&nbsp;пятью командами стрима и&nbsp;подготовила дизайн для двух поставок на&nbsp;площадки в&nbsp;Барнауле и&nbsp;Чебоксарах: спроектировала раздел управления операторским интерфейсом и&nbsp;обновила сценарий аутентификации клиента. Инициировала проверку решений на&nbsp;фокус‑группах операторов.</p>
+            <div class="project-result">
+              <h3>Результат</h3>
+              <div class="result-paragraphs"><p>Новый раздел управления операторским интерфейсом помог <strong>в сжатые сроки перейти с&nbsp;внешнего решения</strong>, которое перестало соответствовать политике банка.</p><p>Обновлённый сценарий аутентификации помог <strong>сократить среднее время обработки обращения (AHT)</strong>. Одновременно отмечен <strong>рост удовлетворённости клиентов (CSAT)</strong>.</p><p>Проверка решений с&nbsp;операторами помогла <strong>сократить возвраты задач и&nbsp;доработки после релиза</strong>. В&nbsp;первые недели и&nbsp;месяцы после запуска команда стала тратить меньше времени на&nbsp;исправления.</p></div>
+            </div>
+            <div class="project-actions">
+              <p class="project-note">NDA · Расскажу о&nbsp;проекте устно</p>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" id="case-brichka">
+          <a class="project-cover" href="https://buildin.ai/share/5d21b923-f41b-4518-acb4-b37b65381091" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Бричка — приложение для пассажиров и водителей">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/brichka-still.webp">
+            <img src="assets/cases/brichka.webp" alt="Бричка — экраны мобильного приложения для пассажиров и водителей" width="1200" height="750" loading="lazy" decoding="async">
+            </picture>
+            <span class="cover-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-description">
+            <h2>Бричка — приложение для пассажиров и&nbsp;водителей</h2>
+            <ul class="project-tags" aria-label="Категории проекта"><li>B2C</li><li>Транспорт</li><li>Mobile</li><li>Кросс-платформенная разработка</li></ul>
+            <p class="project-summary">Проектировала кроссплатформенное приложение для пассажирских перевозок, в&nbsp;котором водитель и&nbsp;пассажир договариваются о&nbsp;цене напрямую — без алгоритмов повышенного спроса. Разработала интерфейсы для обеих сторон поездки и&nbsp;админ‑панель для поддержки и&nbsp;бэк‑офиса.</p>
+            <div class="project-result">
+              <h3>Результат</h3>
+              <p>Сервис запустился <strong>в Рязани, Ярославле и&nbsp;Астрахани</strong> и&nbsp;набрал пользовательскую базу. Команда заключила контракты с&nbsp;крупными таксопарками в&nbsp;этих городах и&nbsp;наладила работу поддержки и&nbsp;бэк‑офиса.</p>
+            </div>
+            <div class="project-actions">
+              <a class="case-link" href="https://buildin.ai/share/5d21b923-f41b-4518-acb4-b37b65381091" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Бричка — приложение для пассажиров и водителей">Смотреть кейс <span aria-hidden="true">↗</span></a>
+              <a class="product-link" href="https://brichka-servis-dlia-poezdok.en.softonic.com/iphone" target="_blank" rel="noopener noreferrer">О приложении <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" id="case-real-estate">
+          <div class="project-cover">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/real-estate-still.webp">
+            <img src="assets/cases/real-estate.webp" alt="Обложка проекта недвижимости с часами и надписью «Скоро»" width="1200" height="750" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="project-description">
+            <h2>Приложение для покупки и&nbsp;продажи недвижимости</h2>
+            <ul class="project-tags" aria-label="Категории проекта"><li>B2B2C</li><li>Недвижимость</li><li>Classified</li><li>Business</li><li>Личный кабинет</li><li>Mobile</li></ul>
+            <p class="project-summary">Работала над редизайном приложения для iOS и&nbsp;Android, которым пользуются риелторы и&nbsp;их клиенты при покупке и&nbsp;продаже недвижимости на&nbsp;юге России. Название продукта и&nbsp;точный регион не&nbsp;раскрываю по&nbsp;просьбе заказчика.</p>
+            <div class="project-actions">
+              <p class="project-note">Кейс скоро будет</p>
+              <p class="project-restriction">Публикация ссылки ограничена заказчиком</p>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" id="case-wildberries">
+          <a class="project-cover" href="https://buildin.ai/share/5516971f-cd2f-413d-82f5-2adca1991fd2" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Wildberries — учебный режим рекламного кабинета">
+            <img src="assets/cases/wildberries.webp" alt="Wildberries — учебный режим и рекламный кабинет продавца" width="1200" height="675" loading="lazy" decoding="async">
+            <span class="cover-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-description">
+            <h2>Wildberries — учебный режим рекламного кабинета</h2>
+            <ul class="project-tags" aria-label="Категории проекта"><li>B2B</li><li>Business</li><li>Рекламные инструменты</li><li>Tutorial</li><li>Личный кабинет</li><li>Web</li></ul>
+            <p class="project-summary">В&nbsp;составе команды BHSAD работала над рекламными инструментами WB Partners: отвечала за&nbsp;исследования и&nbsp;большую часть UI. Спроектировала безопасный режим запуска кампаний с&nbsp;тренажёром для новичков и&nbsp;аналитическими рекомендациями для опытных продавцов.</p>
+            <div class="project-result">
+              <h3>Ожидаемый эффект</h3>
+              <p>По&nbsp;оценке стейкхолдера, решения могут <strong>сократить время до&nbsp;первого запуска рекламной кампании (TFA)</strong> и&nbsp;стимулировать повторные запуски (CRR). Ожидаемый эффект для бизнеса — рост рекламной выручки (AdRev).</p>
+            </div>
+            <div class="project-actions">
+              <a class="case-link" href="https://buildin.ai/share/5516971f-cd2f-413d-82f5-2adca1991fd2" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Wildberries — учебный режим рекламного кабинета">Смотреть кейс <span aria-hidden="true">↗</span></a>
+              <a class="product-link" href="https://seller.wildberries.ru/about-portal/ru/ru" target="_blank" rel="noopener noreferrer">Сайт продукта <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" id="case-moscow">
+          <a class="project-cover" href="https://buildin.ai/share/2e7275e4-e0a0-450e-977e-728bdbf61f2d" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Правительство Москвы — платформа для кандидатов на стажировку">
+            <img src="assets/cases/moscow.webp" alt="Личный кабинет кандидата на стажировку в Правительстве Москвы" width="1200" height="675" loading="lazy" decoding="async">
+            <span class="cover-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-description">
+            <h2>Правительство Москвы — платформа для кандидатов на&nbsp;стажировку</h2>
+            <ul class="project-tags" aria-label="Категории проекта"><li>B2C</li><li>Карьерные инструменты</li><li>Образование</li><li>Личный кабинет</li><li>Web</li></ul>
+            <p class="project-summary">В&nbsp;команде BHSAD разработала концепцию платформы для кандидатов на&nbsp;стажировку в&nbsp;2500+ подразделений Правительства Москвы. Отвечала за&nbsp;полный цикл исследований и&nbsp;большую часть UI: от&nbsp;первых макетов до&nbsp;анимированных прототипов. Спроектировала личный кабинет, механики удержания и&nbsp;подачу образовательных материалов с&nbsp;учётом ресурсов заказчика.</p>
+            <div class="project-result">
+              <h3>Ожидаемый эффект</h3>
+              <p>По&nbsp;оценке стейкхолдера, предложенные механики могут повысить <strong>долю кандидатов, переходящих на&nbsp;следующий этап отбора (completion rate, COR), с&nbsp;50% до&nbsp;70%</strong>. Улучшение этого показателя было основной задачей проекта.</p>
+            </div>
+            <div class="project-actions">
+              <a class="case-link" href="https://buildin.ai/share/2e7275e4-e0a0-450e-977e-728bdbf61f2d" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Правительство Москвы — платформа для кандидатов на стажировку">Смотреть кейс <span aria-hidden="true">↗</span></a>
+              <a class="product-link" href="https://talent.mos.ru/internships/" target="_blank" rel="noopener noreferrer">Сайт продукта <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
 
@@ -78,7 +170,7 @@
       <div class="footer-main">
         <nav class="footer-navigation" aria-label="Навигация внизу страницы">
           <a href="#top">Главная</a>
-          <span role="link" aria-disabled="true">Работы</span>
+          <a href="#projects">Работы</a>
           <span role="link" aria-disabled="true">Обо&nbsp;мне</span>
         </nav>
         <div class="footer-contacts">
