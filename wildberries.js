@@ -143,7 +143,7 @@ for (const demo of demos) {
       const message = document.createElement('span');
       message.className = 'wb-video-error';
       message.setAttribute('role', 'status');
-      message.textContent = 'Не удалось загрузить видео.';
+      message.textContent = 'Не удалось загрузить видео.';
       demo.figure.querySelector('.wb-demo-footer').prepend(message);
     }
     showPlaybackState(demo);

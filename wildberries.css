@@ -243,7 +243,7 @@
 .wb-video-dialog-top{gap:12px;margin-bottom:14px}
 }
 @media(max-width:359px){
-.wb-page .case-content h2{font-size:40px}
+.wb-page .case-content h2{font-size:clamp(36px,11.25vw,40px)}
 .wb-matrix{padding-inline:8px}
 .wb-matrix-grid>div{padding-inline:8px}
 .wb-matrix-grid h4{font-size:var(--case-small);letter-spacing:-.025em}

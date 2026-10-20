@@ -58,7 +58,7 @@ for (const button of variableButtons) {
     const source = `assets/gocomment/vectors/variables-${mode}.svg`;
     variableImage.src = source;
     variableZoom.dataset.zoom = source;
-    variableZoom.dataset.caption = mode === 'theme' ? 'Коллекция theme: режимы pluto и venus' : 'Коллекция language: режимы eng и ru';
+    variableZoom.dataset.caption = mode === 'theme' ? 'Коллекция theme: режимы pluto и venus' : 'Коллекция language: режимы eng и ru';
     variableZoom.setAttribute('aria-label', `Увеличить макет: ${variableZoom.dataset.caption}`);
     for (const item of variableButtons) item.setAttribute('aria-pressed', String(item === button));
   });

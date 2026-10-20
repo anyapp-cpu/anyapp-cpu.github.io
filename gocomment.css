@@ -394,3 +394,6 @@ body:has(.image-dialog[open]) { overflow: hidden; }
 
 .learning{margin-top:70px;max-width:900px}.learning .prose{margin-top:30px}
 @media(max-width:699px){.learning{margin-top:54px}.learning .prose{margin-top:28px}}
+
+/* Keep nonbreaking phrases within narrow phone screens. */
+@media(max-width:699px){.gocomment-page .case-main h2{font-size:clamp(36px,11.25vw,42px)}}
