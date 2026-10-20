@@ -374,7 +374,7 @@ body:has(.image-dialog[open]) { overflow: hidden; }
 }
 @media(max-width:699px){
 .case-main{padding-inline:20px}
-.case-intro{padding-top:112px}
+.case-intro{padding-top:160px}
 .case-main .case-deck{line-height:1.15}
 .case-main .title-row h1{font-size:var(--case-title)}
 .scene-controls{border-radius:14px}
