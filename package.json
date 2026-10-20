@@ -5,6 +5,6 @@
   "scripts": {
     "dev": "node server.mjs",
     "start": "node server.mjs",
-    "check": "node --check warp.js && node --check about.js && node --check gocomment.js && node --check wildberries.js && node --check moscow.js && node --check case-cover.js && node --check server.mjs"
+    "check": "node --check warp.js && node --check about.js && node --check gocomment.js && node --check wildberries.js && node --check moscow.js && node --check brichka.js && node --check case-cover.js && node --check server.mjs"
   }
 }

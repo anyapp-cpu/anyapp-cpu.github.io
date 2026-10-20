@@ -1,0 +1,145 @@
+[
+  {
+    "name": "order",
+    "nodeId": "1307:107249",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3206662
+  },
+  {
+    "name": "route",
+    "nodeId": "1307:108887",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3219859
+  },
+  {
+    "name": "price",
+    "nodeId": "1307:109859",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3274386
+  },
+  {
+    "name": "preferences",
+    "nodeId": "1307:109640",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3376094
+  },
+  {
+    "name": "offers",
+    "nodeId": "1307:107730",
+    "changes": [],
+    "rasterImages": 2,
+    "mapPreserved": true,
+    "bytes": 3339175
+  },
+  {
+    "name": "auction-lower",
+    "nodeId": "1307:108019",
+    "changes": [],
+    "rasterImages": 2,
+    "mapPreserved": true,
+    "bytes": 3338857
+  },
+  {
+    "name": "auction-wait",
+    "nodeId": "1307:108405",
+    "changes": [],
+    "rasterImages": 2,
+    "mapPreserved": true,
+    "bytes": 3337999
+  },
+  {
+    "name": "arrival",
+    "nodeId": "1307:109034",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3152200
+  },
+  {
+    "name": "waiting",
+    "nodeId": "1307:109465",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3205238
+  },
+  {
+    "name": "trip",
+    "nodeId": "1307:110729",
+    "changes": [
+      {
+        "from": "320 ₽",
+        "to": "210 ₽"
+      },
+      {
+        "from": "150 ₽",
+        "to": "320 ₽"
+      },
+      {
+        "from": "50 ₽",
+        "to": "110 ₽"
+      }
+    ],
+    "rasterImages": 2,
+    "mapPreserved": true,
+    "bytes": 3267459
+  },
+  {
+    "name": "share",
+    "nodeId": "1307:109385",
+    "changes": [
+      {
+        "from": "320 ₽",
+        "to": "210 ₽"
+      }
+    ],
+    "rasterImages": 2,
+    "mapPreserved": true,
+    "bytes": 3281556
+  },
+  {
+    "name": "bonus-order",
+    "nodeId": "1307:110555",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3231883
+  },
+  {
+    "name": "bonus-menu",
+    "nodeId": "1307:110626",
+    "changes": [],
+    "rasterImages": 1,
+    "mapPreserved": true,
+    "bytes": 3311771
+  },
+  {
+    "name": "referral",
+    "nodeId": "1307:110799",
+    "changes": [
+      {
+        "from": "https://www.link.com/",
+        "to": "brichka.app/r/m7k4"
+      }
+    ],
+    "rasterImages": 0,
+    "mapPreserved": false,
+    "bytes": 113655
+  },
+  {
+    "name": "auction-final",
+    "nodeId": "1307:108212",
+    "changes": [],
+    "rasterImages": 2,
+    "mapPreserved": true,
+    "bytes": 3342871
+  }
+]
