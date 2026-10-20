@@ -10,6 +10,7 @@
     <link rel="preload" href="assets/fonts/onest-regular.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="stylesheet" href="styles.css?v=legaltech-announcement-v2">
     <script src="warp.js" defer></script>
+    <script src="case-cover.js" defer></script>
   </head>
   <body id="top">
     <a class="skip-link" href="#main">Перейти к&nbsp;содержимому</a>
@@ -49,11 +50,9 @@
 
       <section class="projects" id="projects" aria-label="Кейсы">
         <article class="project-card" id="case-vtb">
-          <div class="project-cover">
-            <picture>
-              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/vtb-still.webp">
-            <img src="assets/cases/vtb.webp" alt="Обложка проекта ВТБ с замком и надписью NDA" width="1200" height="750" loading="lazy" decoding="async">
-            </picture>
+          <div class="project-cover project-cover--lottie" data-lottie-cover="assets/cases/vtb.json">
+            <img class="project-cover-poster" src="assets/cases/vtb-still.webp" alt="Обложка проекта ВТБ с замком и надписью NDA" width="1440" height="900" loading="lazy" decoding="async">
+            <span class="project-cover-animation" aria-hidden="true"></span>
           </div>
           <div class="project-description">
             <p class="project-status"><span aria-hidden="true"></span>Текущее место работы</p>
@@ -70,11 +69,9 @@
           </div>
         </article>
         <article class="project-card" id="case-gocomment">
-          <a class="project-cover" href="gocomment.html" aria-label="Смотреть кейс: GoComment — сервис для комментирования сайтов">
-            <picture>
-              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/gocomment-still.webp">
-            <img src="assets/cases/gocomment.webp" alt="GoComment — виджет комментариев и интерфейс управления проектами" width="1200" height="750" loading="lazy" decoding="async">
-            </picture>
+          <a class="project-cover project-cover--lottie" data-lottie-cover="assets/cases/gocomment.json" href="gocomment.html" aria-label="Смотреть кейс: GoComment — сервис для комментирования сайтов">
+            <img class="project-cover-poster" src="assets/cases/gocomment-still.webp" alt="GoComment — виджет комментариев и интерфейс управления проектами" width="1200" height="750" loading="lazy" decoding="async">
+            <span class="project-cover-animation" aria-hidden="true"></span>
           </a>
           <div class="project-description">
             <h2>GoComment — сервис для комментирования сайтов</h2>
@@ -91,19 +88,19 @@
           </div>
         </article>
         <article class="project-card" id="case-wildberries">
-          <a class="project-cover" href="https://buildin.ai/share/5516971f-cd2f-413d-82f5-2adca1991fd2" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Wildberries — учебный режим рекламного кабинета">
-            <img src="assets/cases/wildberries.webp" alt="Wildberries — учебный режим и рекламный кабинет продавца" width="1200" height="675" loading="lazy" decoding="async">
+          <a class="project-cover" href="wildberries.html" aria-label="Смотреть кейс: Wildberries — учебный режим рекламного кабинета">
+            <img src="assets/cases/wildberries.jpg" alt="Wildberries — учебный режим и рекламный кабинет продавца" width="1920" height="1080" loading="lazy" decoding="async">
           </a>
           <div class="project-description">
             <h2>Wildberries — учебный режим рекламного кабинета</h2>
             <ul class="project-tags" aria-label="Категории проекта"><li>B2B</li><li>Business</li><li>Рекламные инструменты</li><li>Tutorial</li><li>Личный кабинет</li><li>Web</li></ul>
-            <p class="project-summary">В&nbsp;составе команды BHSAD работала над рекламными инструментами WB Partners: отвечала за&nbsp;исследования и&nbsp;большую часть UI. Спроектировала безопасный режим запуска кампаний с&nbsp;тренажёром для новичков и&nbsp;аналитическими рекомендациями для опытных продавцов.</p>
+            <p class="project-summary">В&nbsp;команде дизайнеров работала над рекламными инструментами WB Partners совместно с&nbsp;продуктовой командой Wildberries. Участвовала во&nbsp;всех этапах: от&nbsp;интервью и&nbsp;анализа данных до&nbsp;прототипов, финального UI и&nbsp;защиты решений. Спроектировали учебный режим с&nbsp;виртуальным бюджетом и&nbsp;подсказками для работы с&nbsp;рекламой.</p>
             <div class="project-result">
               <h3>Ожидаемый эффект</h3>
               <p>По&nbsp;оценке стейкхолдера, решения могут <strong>сократить время до&nbsp;первого запуска рекламной кампании (TFA)</strong> и&nbsp;стимулировать повторные запуски (CRR). Ожидаемый эффект для бизнеса — рост рекламной выручки (AdRev).</p>
             </div>
             <div class="project-actions">
-              <a class="case-link" href="https://buildin.ai/share/5516971f-cd2f-413d-82f5-2adca1991fd2" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Wildberries — учебный режим рекламного кабинета">Смотреть кейс</a>
+              <a class="case-link" href="wildberries.html" aria-label="Смотреть кейс: Wildberries — учебный режим рекламного кабинета">Смотреть кейс</a>
               <a class="product-link" href="https://seller.wildberries.ru/about-portal/ru/ru" target="_blank" rel="noopener noreferrer">Сайт продукта</a>
             </div>
           </div>
@@ -112,7 +109,7 @@
           <a class="project-cover" href="https://buildin.ai/share/5d21b923-f41b-4518-acb4-b37b65381091" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Бричка — приложение для пассажиров и водителей">
             <picture>
               <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/brichka-still.webp">
-            <img src="assets/cases/brichka.webp" alt="Бричка — экраны мобильного приложения для пассажиров и водителей" width="1200" height="750" loading="lazy" decoding="async">
+            <img src="assets/cases/brichka.gif" alt="Бричка — экраны мобильного приложения для пассажиров и водителей" width="1440" height="900" loading="lazy" decoding="async">
             </picture>
           </a>
           <div class="project-description">
@@ -131,7 +128,7 @@
         </article>
         <article class="project-card" id="case-moscow">
           <a class="project-cover" href="https://buildin.ai/share/2e7275e4-e0a0-450e-977e-728bdbf61f2d" target="_blank" rel="noopener noreferrer" aria-label="Смотреть кейс: Правительство Москвы — платформа для кандидатов на стажировку">
-            <img src="assets/cases/moscow.webp" alt="Личный кабинет кандидата на стажировку в Правительстве Москвы" width="1200" height="675" loading="lazy" decoding="async">
+            <img src="assets/cases/moscow.jpg" alt="Личный кабинет кандидата на стажировку в Правительстве Москвы" width="1920" height="1080" loading="lazy" decoding="async">
           </a>
           <div class="project-description">
             <h2>Правительство Москвы — платформа для кандидатов на&nbsp;стажировку</h2>
@@ -148,11 +145,9 @@
           </div>
         </article>
         <article class="project-card" id="case-real-estate">
-          <div class="project-cover">
-            <picture>
-              <source media="(prefers-reduced-motion: reduce)" srcset="assets/cases/real-estate-still.webp">
-            <img src="assets/cases/real-estate.webp" alt="Обложка проекта недвижимости с часами и надписью «Скоро»" width="1200" height="750" loading="lazy" decoding="async">
-            </picture>
+          <div class="project-cover project-cover--lottie" data-lottie-cover="assets/cases/real-estate.json">
+            <img class="project-cover-poster" src="assets/cases/real-estate-still.webp" alt="Обложка проекта недвижимости с часами и надписью «Скоро»" width="1440" height="900" loading="lazy" decoding="async">
+            <span class="project-cover-animation" aria-hidden="true"></span>
           </div>
           <div class="project-description">
             <h2>Приложение для покупки и&nbsp;продажи недвижимости</h2>

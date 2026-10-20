@@ -1,0 +1,51 @@
+[
+  {
+    "name": "bid-calculator",
+    "bytes": 1125881,
+    "original": "bid-calculator.mov",
+    "poster": "posters/bid-calculator.webp",
+    "video": "videos/bid-calculator.mp4"
+  },
+  {
+    "name": "cabinet",
+    "bytes": 875071,
+    "original": "cabinet.mov",
+    "poster": "posters/cabinet.webp",
+    "video": "videos/cabinet.mp4"
+  },
+  {
+    "name": "campaign",
+    "bytes": 624973,
+    "original": "campaign.mp4",
+    "poster": "posters/campaign.webp",
+    "video": "videos/campaign.mp4"
+  },
+  {
+    "name": "creation",
+    "bytes": 1783234,
+    "original": "creation.mov",
+    "poster": "posters/creation.webp",
+    "video": "videos/creation.mp4"
+  },
+  {
+    "name": "quick-actions",
+    "bytes": 1227772,
+    "original": "quick-actions.mov",
+    "poster": "posters/quick-actions.webp",
+    "video": "videos/quick-actions.mp4"
+  },
+  {
+    "name": "sandbox",
+    "bytes": 854116,
+    "original": "sandbox.mov",
+    "poster": "posters/sandbox.webp",
+    "video": "videos/sandbox.mp4"
+  },
+  {
+    "name": "time-skip",
+    "bytes": 1981911,
+    "original": "time-skip.mp4",
+    "poster": "posters/time-skip.webp",
+    "video": "videos/time-skip.mp4"
+  }
+]
