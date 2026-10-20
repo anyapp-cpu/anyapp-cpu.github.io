@@ -1,0 +1,40 @@
+{
+  "case": "https://buildin.ai/share/2e7275e4-e0a0-450e-977e-728bdbf61f2d?code=EZSG33",
+  "figma": {
+    "fileKey": "TTLpOezm9U0AjrL2h2A3ID",
+    "page": "3142:1092",
+    "assets": {
+      "vectors/dashboard.svg": "3158:19211",
+      "vectors/skills.svg": "3158:20081"
+    },
+    "format": "SVG exports; interface layers are vectors; embedded photos are source portraits.",
+    "repairs": "The exporter omitted mixed per-region fills on chart nodes 3158:20527 and 3158:19358 and used an unsupported HTML backdrop blur. Read-only Plugin API data in chart-source.json and dashboard-chart-source.json restores the original ten vector regions and source colors of each chart; a native SVG Gaussian blur preserves the original 12px effect. Reproduce each with scripts/moscow/repair_chart.py."
+  },
+  "videos": "All thirteen demos use local files in «видео ПМ». Exact mapping, dimensions and SHA-256 in video-manifest.json. Telegram uses «чат-бот.mov», not the earlier Buildin video. The Telegram web versions are trimmed to 14.0 seconds, before the recording selection border and stop-recording tooltip. Original retained unchanged.",
+  "research": {
+    "deskResearchGroups": 4,
+    "currentJourneyAudit": true,
+    "interviews": 22,
+    "respondentAges": "21–35",
+    "mindsets": [
+      "Золотоискатель",
+      "Искушённый",
+      "Самозванец",
+      "Флюгер"
+    ],
+    "focus": [
+      "Самозванец",
+      "Искушённый"
+    ],
+    "insights": 6,
+    "quotes": 8
+  },
+  "authorClarifications": {
+    "role": "All stages in a team of designers; Government of Moscow team were the stakeholders. Research, UI, prototypes, stakeholder communication and final pitch.",
+    "metric": "50% to 70% is the target for conversion between individual selection stages, not end-to-end completion.",
+    "delivery": "Presented to stakeholders; implementation scope and timing are unknown and are not represented as measured impact.",
+    "usability": "Author requested no usability-testing coverage.",
+    "mechanics": "Return advantage and consideration of candidate activity were proposed and discussed with stakeholders."
+  },
+  "editorial": "The source calls the already-focused favorites user «Самозванец» once, while its definition and the preceding segmentation describe «Искушённый». The page uses the consistent mindset mapping. A duplicate insight description under «Да кому я там нужен?» is replaced with a faithful paraphrase of its accompanying quote. Two interview quotes are shown as exact excerpts to avoid rewriting the original wording."
+}
