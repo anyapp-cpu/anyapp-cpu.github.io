@@ -1,0 +1,893 @@
+{
+  "mobile-compose": [
+    {
+      "kind": "comment-cluster",
+      "fill": "white",
+      "foreground": "#0F0E2B",
+      "shadow": true
+    },
+    {
+      "kind": "caret",
+      "textEnd": 221.08984375,
+      "cursorX": 223.08984375
+    },
+    {
+      "kind": "send-button",
+      "state": "enabled",
+      "fill": "#5E5CE6",
+      "foreground": "white"
+    }
+  ],
+  "entry-filled": [
+    {
+      "kind": "workspace",
+      "text": "North Studio",
+      "gap": 8
+    },
+    {
+      "kind": "profile",
+      "text": "Alex Morgan",
+      "chevronGap": 28.88941406249978,
+      "right": 1416.0
+    }
+  ],
+  "mobile-desktop": [
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.4765625,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "12",
+      "width": 21,
+      "leftPadding": 4.224600000000002,
+      "rightPadding": 4.224618749999998,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "0",
+      "width": 16,
+      "leftPadding": 4.042000000000002,
+      "rightPadding": 4.041984374999998,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 16,
+      "leftPadding": 5.463000000000022,
+      "rightPadding": 5.462781249999978,
+      "icon": false
+    },
+    {
+      "kind": "text-badge",
+      "text": "All",
+      "width": 33,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "To discuss",
+      "width": 88,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "In progress",
+      "width": 92,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "Resolved",
+      "width": 77,
+      "padding": 8
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    },
+    {
+      "kind": "status",
+      "text": "In progress",
+      "color": "#8B89FC"
+    }
+  ],
+  "task-form": [
+    {
+      "kind": "attachment",
+      "filename": "brief.pdf",
+      "gap": 8
+    },
+    {
+      "kind": "attachment",
+      "filename": "living-room.jpg",
+      "gap": 8
+    }
+  ],
+  "kit-avatar": [],
+  "mobile-site": [],
+  "kit-button-hover": [],
+  "mobile-thread": [
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.4765625,
+      "icon": true
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    }
+  ],
+  "projects": [
+    {
+      "kind": "profile",
+      "text": "Alex Morgan",
+      "chevronGap": 28.88941406249978,
+      "right": 1416.0
+    },
+    {
+      "kind": "text-badge",
+      "text": "Widget is not installed",
+      "width": 164,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "Widget installed",
+      "width": 124,
+      "padding": 8
+    },
+    {
+      "kind": "project-statistics",
+      "userGap": 6,
+      "commentGap": 6
+    },
+    {
+      "kind": "project-statistics",
+      "userGap": 6,
+      "commentGap": 6
+    },
+    {
+      "kind": "fraction",
+      "text": "18/23",
+      "gap": 4
+    }
+  ],
+  "extension-ru": [
+    {
+      "kind": "badge",
+      "text": "6",
+      "width": 16,
+      "leftPadding": 4.162000000000035,
+      "rightPadding": 4.162218749999965,
+      "icon": false
+    },
+    {
+      "kind": "workspace",
+      "text": "Север / студия",
+      "gap": 8
+    },
+    {
+      "kind": "profile",
+      "text": "Анна Смирнова",
+      "chevronGap": 12.002304687499873,
+      "right": 1416.0
+    },
+    {
+      "kind": "text-badge",
+      "text": "Не установлен",
+      "width": 97,
+      "padding": 4.19500000000005
+    },
+    {
+      "kind": "text-badge",
+      "text": "Не установлен",
+      "width": 119,
+      "padding": 8
+    }
+  ],
+  "kit-reply": [],
+  "kit-button": [],
+  "kit-select": [],
+  "dashboard": [
+    {
+      "kind": "badge",
+      "text": "6",
+      "width": 16,
+      "leftPadding": 4.161999999999978,
+      "rightPadding": 4.162218750000022,
+      "icon": false
+    },
+    {
+      "kind": "profile",
+      "text": "Alex Morgan",
+      "chevronGap": 28.88941406249978,
+      "right": 1416.0
+    },
+    {
+      "kind": "fraction",
+      "text": "31/52",
+      "gap": 8
+    },
+    {
+      "kind": "fraction",
+      "text": "12/84",
+      "gap": 8
+    }
+  ],
+  "extension-en": [
+    {
+      "kind": "badge",
+      "text": "6",
+      "width": 16,
+      "leftPadding": 4.161999999999978,
+      "rightPadding": 4.162218750000022,
+      "icon": false
+    },
+    {
+      "kind": "workspace",
+      "text": "North Studio",
+      "gap": 8
+    },
+    {
+      "kind": "profile",
+      "text": "Alex Morgan",
+      "chevronGap": 28.88941406249978,
+      "right": 1416.0
+    },
+    {
+      "kind": "text-badge",
+      "text": "Not installed",
+      "width": 81,
+      "padding": 4.370999999999981
+    },
+    {
+      "kind": "text-badge",
+      "text": "Not installed",
+      "width": 100,
+      "padding": 8
+    }
+  ],
+  "task-comment": [
+    {
+      "kind": "header",
+      "id": "GC-147",
+      "end": 225.310921875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    }
+  ],
+  "environment": [],
+  "panel-ru": [
+    {
+      "kind": "header",
+      "id": "GC-147",
+      "end": 200.869515625,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "header",
+      "id": "GC-148",
+      "end": 196.316015625,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "header",
+      "id": "GC-139",
+      "end": 201.30346875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "header",
+      "id": "GC-143",
+      "end": 196.526703125,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 16,
+      "leftPadding": 4.2379999999999995,
+      "rightPadding": 4.2385625000000005,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 16,
+      "leftPadding": 4.302999999999997,
+      "rightPadding": 4.302468750000003,
+      "icon": false
+    },
+    {
+      "kind": "status",
+      "text": "На обсуждении",
+      "color": "#FF33B1"
+    },
+    {
+      "kind": "status",
+      "text": "В работе",
+      "color": "#14A9B8"
+    },
+    {
+      "kind": "status",
+      "text": "Решено",
+      "color": "#5EB084"
+    }
+  ],
+  "tour-1": [
+    {
+      "kind": "step-indicator",
+      "text": "1",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 497.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "2",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 597.0
+    },
+    {
+      "kind": "step-indicator",
+      "text": "3",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 698.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "4",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 793.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "5",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 882.5
+    }
+  ],
+  "tour-2": [
+    {
+      "kind": "step-indicator",
+      "text": "1",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 497.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "2",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 597.0
+    },
+    {
+      "kind": "step-indicator",
+      "text": "3",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 698.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "4",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 793.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "5",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 882.5
+    }
+  ],
+  "entry-ru": [
+    {
+      "kind": "workspace",
+      "text": "Север / студия",
+      "gap": 8
+    },
+    {
+      "kind": "profile",
+      "text": "Анна Смирнова",
+      "chevronGap": 12.002304687499873,
+      "right": 1416.0
+    }
+  ],
+  "comment": [
+    {
+      "kind": "header",
+      "id": "GC-147",
+      "end": 195.310921875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 16,
+      "leftPadding": 4.2379999999999995,
+      "rightPadding": 4.2385625000000005,
+      "icon": false
+    },
+    {
+      "kind": "attachment",
+      "filename": "living-room.jpg",
+      "gap": 8
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    }
+  ],
+  "tour-3": [
+    {
+      "kind": "step-indicator",
+      "text": "1",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 497.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "2",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 597.0
+    },
+    {
+      "kind": "step-indicator",
+      "text": "3",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 698.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "4",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 793.5
+    },
+    {
+      "kind": "step-indicator",
+      "text": "5",
+      "width": 20.0,
+      "height": 20.0,
+      "centerX": 882.5
+    }
+  ],
+  "panel": [
+    {
+      "kind": "header",
+      "id": "GC-147",
+      "end": 187.310921875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "header",
+      "id": "GC-148",
+      "end": 185.194921875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "header",
+      "id": "GC-139",
+      "end": 185.055421875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "header",
+      "id": "GC-143",
+      "end": 187.977875,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 16,
+      "leftPadding": 4.2379999999999995,
+      "rightPadding": 4.2385625000000005,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 16,
+      "leftPadding": 4.302999999999997,
+      "rightPadding": 4.302468750000003,
+      "icon": false
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    },
+    {
+      "kind": "status",
+      "text": "In progress",
+      "color": "#8B89FC"
+    },
+    {
+      "kind": "status",
+      "text": "Resolved",
+      "color": "#5EB084"
+    }
+  ],
+  "mobile-current": [
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.4765625,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "0",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.25390625,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "4",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "12",
+      "width": 21,
+      "leftPadding": 4.224600000000002,
+      "rightPadding": 4.224618749999998,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 16,
+      "leftPadding": 4.182999999999993,
+      "rightPadding": 4.182234375000007,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 16,
+      "leftPadding": 4.182999999999993,
+      "rightPadding": 4.182234375000007,
+      "icon": false
+    },
+    {
+      "kind": "text-badge",
+      "text": "All",
+      "width": 33,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "To discuss",
+      "width": 88,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "In progress",
+      "width": 92,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "Resolved",
+      "width": 77,
+      "padding": 8
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    },
+    {
+      "kind": "status",
+      "text": "In progress",
+      "color": "#8B89FC"
+    },
+    {
+      "kind": "status",
+      "text": "Resolved",
+      "color": "#5EB084"
+    }
+  ],
+  "entry-en": [
+    {
+      "kind": "workspace",
+      "text": "North Studio",
+      "gap": 8
+    },
+    {
+      "kind": "profile",
+      "text": "Alex Morgan",
+      "chevronGap": 28.88941406249978,
+      "right": 1416.0
+    }
+  ],
+  "kit-tag": [],
+  "comment-ru": [
+    {
+      "kind": "header",
+      "id": "GC-147",
+      "end": 208.869515625,
+      "identifierGap": 8,
+      "timeGap": 8
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.681640625,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 16,
+      "leftPadding": 4.293999999999983,
+      "rightPadding": 4.293890625000017,
+      "icon": false
+    },
+    {
+      "kind": "attachment",
+      "filename": "living-room.jpg",
+      "gap": 8
+    },
+    {
+      "kind": "status",
+      "text": "На обсуждении",
+      "color": "#FF33B1"
+    }
+  ],
+  "mobile-explanation": [
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "3",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.4765625,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 31,
+      "leftPadding": 22.0,
+      "rightPadding": 4.01953125,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "2",
+      "width": 34,
+      "leftPadding": 22.0,
+      "rightPadding": 4.60546875,
+      "icon": true
+    },
+    {
+      "kind": "badge",
+      "text": "12",
+      "width": 21,
+      "leftPadding": 4.224600000000002,
+      "rightPadding": 4.224618749999998,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "0",
+      "width": 16,
+      "leftPadding": 4.042000000000002,
+      "rightPadding": 4.041984374999998,
+      "icon": false
+    },
+    {
+      "kind": "badge",
+      "text": "1",
+      "width": 16,
+      "leftPadding": 5.463000000000022,
+      "rightPadding": 5.462781249999978,
+      "icon": false
+    },
+    {
+      "kind": "text-badge",
+      "text": "All",
+      "width": 33,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "To discuss",
+      "width": 88,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "In progress",
+      "width": 92,
+      "padding": 8
+    },
+    {
+      "kind": "text-badge",
+      "text": "Resolved",
+      "width": 77,
+      "padding": 8
+    },
+    {
+      "kind": "status",
+      "text": "To discuss",
+      "color": "#FFA944"
+    },
+    {
+      "kind": "status",
+      "text": "In progress",
+      "color": "#8B89FC"
+    }
+  ],
+  "kit-input": []
+}

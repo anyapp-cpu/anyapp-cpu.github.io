@@ -1,0 +1,8 @@
+<svg width="321" height="64" viewBox="0 0 321 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text fill="#667085" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="500" letter-spacing="0em"><tspan x="0" y="12.3636">Label</tspan></text>
+<rect x="0.5" y="20.5" width="320" height="43" rx="7.5" fill="white"/>
+<rect x="0.5" y="20.5" width="320" height="43" rx="7.5" stroke="#B8B7FF"/>
+<rect x="12" y="32" width="1" height="20" rx="0.5" fill="#403DE1"/>
+<text fill="#A6ACB8" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="14" letter-spacing="0em"><tspan x="13" y="47.0909">Placeholder</tspan></text>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M293.558 36.5581C293.802 36.314 294.198 36.314 294.442 36.5581L299 41.1161L303.558 36.5581C303.802 36.314 304.198 36.314 304.442 36.5581C304.686 36.8021 304.686 37.1979 304.442 37.4419L299.884 42L304.442 46.5581C304.686 46.8021 304.686 47.1979 304.442 47.4419C304.198 47.686 303.802 47.686 303.558 47.4419L299 42.8839L294.442 47.4419C294.198 47.686 293.802 47.686 293.558 47.4419C293.314 47.1979 293.314 46.8021 293.558 46.5581L298.116 42L293.558 37.4419C293.314 37.1979 293.314 36.8021 293.558 36.5581Z" fill="#667085"/>
+</svg>

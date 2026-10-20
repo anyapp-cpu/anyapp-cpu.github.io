@@ -1,0 +1,273 @@
+{
+  "note": "Figma files were only read/exported. Local mock data and content-aware layout were applied before outlining SVG text. Status colors were verified against Figma theme variables. The original waving-hand PNG is embedded inside vector screens; the puzzle was removed.",
+  "assets": [
+    {
+      "file": "vectors/entry-en.svg",
+      "figmaFile": "0tnUvjbA57WJrojxQjVfQD",
+      "nodeId": "4155:18214",
+      "url": "https://www.figma.com/design/0tnUvjbA57WJrojxQjVfQD/?node-id=4155-18214",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/entry-filled.svg",
+      "figmaFile": "0tnUvjbA57WJrojxQjVfQD",
+      "nodeId": "4155:18373",
+      "url": "https://www.figma.com/design/0tnUvjbA57WJrojxQjVfQD/?node-id=4155-18373",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/entry-ru.svg",
+      "figmaFile": "0tnUvjbA57WJrojxQjVfQD",
+      "nodeId": "4317:28317",
+      "url": "https://www.figma.com/design/0tnUvjbA57WJrojxQjVfQD/?node-id=4317-28317",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/extension-en.svg",
+      "figmaFile": "0tnUvjbA57WJrojxQjVfQD",
+      "nodeId": "4335:27760",
+      "url": "https://www.figma.com/design/0tnUvjbA57WJrojxQjVfQD/?node-id=4335-27760",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/extension-ru.svg",
+      "figmaFile": "0tnUvjbA57WJrojxQjVfQD",
+      "nodeId": "7059:35728",
+      "url": "https://www.figma.com/design/0tnUvjbA57WJrojxQjVfQD/?node-id=7059-35728",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/dashboard.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "3742:236061",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=3742-236061",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/projects.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "138:117974",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=138-117974",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/mobile-current.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "7:20306",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=7-20306",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/mobile-desktop.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "7:20259",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=7-20259",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/mobile-explanation.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "7:20272",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=7-20272",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/tour-1.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "159:193877",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=159-193877",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/tour-2.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "159:200078",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=159-200078",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/tour-3.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "159:212410",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=159-212410",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/comment.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "172:175506",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=172-175506",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/environment.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "172:175181",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=172-175181",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/panel.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "172:175248",
+      "url": "https://www.figma.com/design/NnGonWg651y3dTfD0qeMOV/?node-id=172-175248",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/comment-ru.svg",
+      "figmaFile": "5A2blcYU1w4tN8bJVEBTgE",
+      "nodeId": "172:175506",
+      "url": "https://www.figma.com/design/5A2blcYU1w4tN8bJVEBTgE/?node-id=172-175506",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/panel-ru.svg",
+      "figmaFile": "5A2blcYU1w4tN8bJVEBTgE",
+      "nodeId": "172:175248",
+      "url": "https://www.figma.com/design/5A2blcYU1w4tN8bJVEBTgE/?node-id=172-175248",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/kit-input.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "378:58794",
+      "url": "https://www.figma.com/design/GKAoiUNDTrH8NO7YE98cNq/?node-id=378-58794",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/kit-select.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "385:61186",
+      "url": "https://www.figma.com/design/GKAoiUNDTrH8NO7YE98cNq/?node-id=385-61186",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/kit-reply.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "126:19672",
+      "url": "https://www.figma.com/design/GKAoiUNDTrH8NO7YE98cNq/?node-id=126-19672",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/kit-avatar.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "130:19505",
+      "url": "https://www.figma.com/design/GKAoiUNDTrH8NO7YE98cNq/?node-id=130-19505",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "vectors/kit-tag.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "128:29188",
+      "url": "https://www.figma.com/design/GKAoiUNDTrH8NO7YE98cNq/?node-id=128-29188",
+      "kind": "SVG export, locally populated with demonstration data; text outlined for crisp self-contained rendering"
+    },
+    {
+      "file": "console.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "172:210949",
+      "kind": "Original vector toolbar export"
+    },
+    {
+      "file": "vectors/pin.svg",
+      "figmaFile": "NnGonWg651y3dTfD0qeMOV",
+      "nodeId": "172:175505",
+      "kind": "Original vector pin, local fictional initial O"
+    },
+    {
+      "file": "vectors/forma-site.svg",
+      "kind": "Local fictional demonstration website, vector layout with generated interior photography"
+    },
+    {
+      "file": "interior.jpg",
+      "kind": "Generated interior photograph, ImageGen"
+    },
+    {
+      "file": "phone-hardware.png",
+      "kind": "Generated transparent phone hardware, ImageGen. Screens are separate original vector UI exports."
+    },
+    {
+      "file": "vectors/variables-theme.svg",
+      "kind": "Vector reconstruction of Figma variables editor, actual theme/pluto/venus names and values from UI Kit"
+    },
+    {
+      "file": "vectors/variables-language.svg",
+      "kind": "Vector reconstruction of Figma variables editor, actual language/eng/ru names and values from UI Kit"
+    },
+    {
+      "file": "vectors/entry-focus.svg",
+      "derivedFrom": "vectors/entry-en.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/entry-filled-focus.svg",
+      "derivedFrom": "vectors/entry-filled.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/entry-ru-focus.svg",
+      "derivedFrom": "vectors/entry-ru.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/extension-focus.svg",
+      "derivedFrom": "vectors/extension-en.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/tour-2-focus.svg",
+      "derivedFrom": "vectors/tour-2.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/tour-3-focus.svg",
+      "derivedFrom": "vectors/tour-3.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/mobile-switch.svg",
+      "derivedFrom": "vectors/mobile-desktop.svg",
+      "kind": "Vector crop of local export"
+    },
+    {
+      "file": "vectors/dashboard.svg",
+      "kind": "Raster browser marks replaced locally by vector marks; session percentages use fictional demonstration data."
+    },
+    {
+      "file": "vectors/kit-button-default.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "377:58120",
+      "kind": "Vector button specimen using original state tokens and content-sized label Button"
+    },
+    {
+      "file": "vectors/kit-button-hover.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "377:58191",
+      "kind": "Vector button specimen using original state tokens and content-sized label Button"
+    },
+    {
+      "file": "vectors/kit-button-pressed.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "377:58208",
+      "kind": "Vector button specimen using original state tokens and content-sized label Button"
+    },
+    {
+      "file": "vectors/kit-button-focused.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "1292:2772",
+      "kind": "Vector button specimen using original state tokens and content-sized label Button"
+    },
+    {
+      "file": "vectors/kit-button-disabled.svg",
+      "figmaFile": "GKAoiUNDTrH8NO7YE98cNq",
+      "nodeId": "377:58162",
+      "kind": "Vector button specimen using original state tokens and content-sized label Button"
+    },
+    {
+      "file": "waving-hand.png",
+      "figmaFile": "0tnUvjbA57WJrojxQjVfQD",
+      "nodeId": "4155:18214",
+      "kind": "Original raster emoji image fill, embedded inside SVG without redrawing"
+    }
+  ]
+}

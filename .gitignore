@@ -2,3 +2,4 @@
 node_modules/
 preview/
 *.log
+__pycache__/
