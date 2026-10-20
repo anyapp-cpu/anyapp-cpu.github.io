@@ -5,17 +5,27 @@
     "pageId": "1916:290032",
     "pageName": "финальный прототип",
     "usedExports": [
-      { "file": "vectors/calculator.svg", "nodeId": "1917:315854", "description": "Товары и калькулятор ставки. Векторный интерфейс; встроенный растр используется только для фотографий товаров." },
-      { "file": "vectors/time-panel.svg", "nodeId": "1917:320858", "description": "Векторная панель прокрутки времени с иллюстрацией песочных часов." }
+      {
+        "file": "vectors/calculator.svg",
+        "nodeId": "1917:315854",
+        "description": "Товары и калькулятор ставки. Векторный интерфейс; встроенный растр используется только для фотографий товаров."
+      },
+      {
+        "file": "vectors/time-panel-card.svg",
+        "nodeId": "1917:320858",
+        "description": "Векторная панель прокрутки времени. Из локального экспорта убрано только внешнее серое поле; белая карточка, скругления и иллюстрация сохранены.",
+        "originalExport": "vectors/time-panel.svg"
+      }
     ]
   },
   "videos": {
-    "origin": "Семь видеозаписей, встроенных в исходный кейс Buildin, в порядке его разделов.",
-    "originals": "sources/wildberries/originals/ (локальная папка, исключена из Git)",
-    "webVersions": "videos/*.mp4",
-    "encoding": "H.264, yuv420p, 30 fps, до 1600 px по ширине, без звука и метаданных, faststart",
-    "posters": "Первые кадры этих же видеозаписей, WebP.",
-    "manifest": "video-manifest.json"
+    "origin": "Семь оригинальных записей, загруженных автором в папку проекта «видео Wildberries».",
+    "originals": "видео Wildberries/",
+    "webVersions": "videos/*-compat.mp4 и videos/*-compat.webm",
+    "encoding": "MP4: H.264 Constrained Baseline, avc1, level 4.0, yuv420p, 30 fps, до 1600 px, faststart. Альтернатива: WebM VP9. Без звука.",
+    "posters": "Первые кадры тех же локальных записей, WebP.",
+    "manifest": "video-manifest.json: роль в кейсе, исходное имя, SHA-256 оригинала, длительность и пути к веб-версиям.",
+    "verification": "Все 14 веб-файлов полностью декодированы, сверены с HTTP-ответом по SHA-256 и проверены запросами Range."
   },
   "content": {
     "basis": "Исходный авторский кейс и уточнения Ани в этом чате.",

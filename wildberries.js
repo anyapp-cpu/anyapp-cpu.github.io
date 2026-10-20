@@ -51,7 +51,8 @@ imageDialog.addEventListener('click', event => {
 imageDialog.addEventListener('close', () => syncAllVideos());
 imageDialog.addEventListener('toggle', () => syncAllVideos());
 
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+// Native muted autoplay owns playback. Scrolling never pauses a demo.
+// Visibility and intersection events only retry playback after browser suspension.
 const videoDialog = document.querySelector('.wb-video-dialog');
 const expandedFrame = videoDialog.querySelector('.wb-expanded-frame');
 let expandedDemo = null;
@@ -61,41 +62,124 @@ const demos = [...document.querySelectorAll('[data-demo]')].map(figure => ({
   video: figure.querySelector('video'),
   button: figure.querySelector('[data-play]'),
   label: figure.querySelector('.wb-demo-top>span').textContent.split(' / ')[1],
-  inView: false,
-  manual: null,
+  userPaused: false,
+  internalPause: false,
+  nativeInteractionUntil: 0,
+  triedFallback: false,
+  starting: false,
 }));
 
-function loadVideo(demo) {
-  if (demo.video.getAttribute('src')) return;
-  demo.video.src = demo.video.dataset.src;
-  demo.video.load();
-}
 function showPlaybackState(demo) {
+  const failed = Boolean(demo.video.error);
   const paused = demo.video.paused;
-  demo.button.innerHTML = paused ? 'Смотреть <span aria-hidden="true">▷</span>' : 'Пауза <span aria-hidden="true">Ⅱ</span>';
-  demo.button.setAttribute('aria-label', `${paused ? 'Запустить' : 'Приостановить'} видео: ${demo.label}`);
+  demo.button.textContent = failed ? 'Повторить' : paused ? 'Смотреть ▷' : 'Пауза Ⅱ';
+  demo.button.dataset.action = failed || paused ? 'play' : 'pause';
+  demo.button.setAttribute('aria-label', `${failed ? 'Повторить загрузку' : paused ? 'Запустить' : 'Приостановить'} видео: ${demo.label}`);
+}
+function pauseVideo(demo) {
+  if (demo.video.paused) return;
+  demo.internalPause = true;
+  demo.video.pause();
+}
+function playVideo(demo) {
+  if (demo.starting || demo.video.error) return;
+  demo.video.muted = true;
+  demo.video.defaultMuted = true;
+  demo.starting = true;
+  demo.video.play().then(() => {
+    demo.figure.querySelector('.wb-video-error')?.remove();
+  }).catch(() => {
+    // Keep native controls usable if the browser requires a user gesture.
+  }).finally(() => {
+    demo.starting = false;
+    showPlaybackState(demo);
+  });
 }
 function syncVideo(demo) {
-  const shouldPlay = (demo.inView || expandedDemo === demo) &&
-    (!expandedDemo || expandedDemo === demo) && !document.hidden && !imageDialog.open &&
-    demo.manual !== 'paused' && (!reducedMotion.matches || demo.manual === 'playing');
-  if (shouldPlay) {
-    loadVideo(demo);
-    demo.video.muted = true;
-    demo.video.play().catch(() => {
-      // Keep a readable poster and a manual play action if autoplay is blocked.
-      showPlaybackState(demo);
-    });
-  } else demo.video.pause();
-  showPlaybackState(demo);
+  if (demo.userPaused || imageDialog.open || (expandedDemo && expandedDemo !== demo)) return;
+  if (demo.video.paused) playVideo(demo);
 }
 function syncAllVideos() { demos.forEach(syncVideo); }
+
+const videoObserver = new IntersectionObserver(entries => {
+  for (const entry of entries) {
+    if (entry.isIntersecting) syncVideo(demos.find(demo => demo.frame === entry.target));
+  }
+});
+for (const demo of demos) {
+  const video = demo.video;
+  video.muted = true;
+  video.defaultMuted = true;
+  video.playsInline = true;
+  video.autoplay = true;
+  video.controls = true;
+  videoObserver.observe(demo.frame);
+  for (const event of ['loadeddata', 'canplay']) video.addEventListener(event, () => {
+    if (!video.error) demo.figure.querySelector('.wb-video-error')?.remove();
+    syncVideo(demo);
+  });
+  video.addEventListener('pointerdown', () => { demo.nativeInteractionUntil = performance.now() + 1500; });
+  video.addEventListener('keydown', () => { demo.nativeInteractionUntil = performance.now() + 1500; });
+  video.addEventListener('play', () => {
+    demo.userPaused = false;
+    showPlaybackState(demo);
+  });
+  video.addEventListener('pause', () => {
+    if (!demo.internalPause && performance.now() < demo.nativeInteractionUntil) demo.userPaused = true;
+    demo.internalPause = false;
+    showPlaybackState(demo);
+  });
+  video.addEventListener('error', () => {
+    const alternate = video.querySelector('source[type="video/webm"]');
+    if (!demo.triedFallback && alternate) {
+      demo.triedFallback = true;
+      demo.starting = false;
+      video.src = alternate.src;
+      video.load();
+      playVideo(demo);
+      return;
+    }
+    if (!demo.figure.querySelector('.wb-video-error')) {
+      const message = document.createElement('span');
+      message.className = 'wb-video-error';
+      message.setAttribute('role', 'status');
+      message.textContent = 'Не удалось загрузить видео.';
+      demo.figure.querySelector('.wb-demo-footer').prepend(message);
+    }
+    showPlaybackState(demo);
+  });
+  demo.button.addEventListener('click', () => {
+    if (!video.paused && !video.error) {
+      demo.userPaused = true;
+      pauseVideo(demo);
+    } else {
+      demo.userPaused = false;
+      if (video.error) {
+        demo.triedFallback = false;
+        demo.starting = false;
+        video.removeAttribute('src');
+        video.load();
+      }
+      playVideo(demo);
+    }
+    showPlaybackState(demo);
+  });
+  demo.figure.querySelector('[data-fullscreen]').addEventListener('click', () => {
+    expandedDemo = demo;
+    demo.userPaused = false;
+    videoDialog.querySelector('.wb-video-dialog-top p').textContent = demo.label;
+    videoDialog.showModal();
+    expandedFrame.append(video);
+    for (const other of demos) if (other !== demo) pauseVideo(other);
+    playVideo(demo);
+  });
+  showPlaybackState(demo);
+}
 videoDialog.querySelector('.wb-video-close').addEventListener('click', () => videoDialog.close());
 videoDialog.addEventListener('close', () => {
   if (!expandedDemo) return;
   const demo = expandedDemo;
   expandedDemo = null;
-  demo.video.controls = false;
   demo.frame.append(demo.video);
   syncAllVideos();
 });
@@ -104,62 +188,9 @@ videoDialog.addEventListener('click', event => {
   const box = videoDialog.getBoundingClientRect();
   if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) videoDialog.close();
 });
-
-const loadObserver = new IntersectionObserver(entries => {
-  for (const entry of entries) {
-    if (!entry.isIntersecting) continue;
-    const demo = demos.find(item => item.video === entry.target);
-    if (!reducedMotion.matches) loadVideo(demo);
-  }
-}, { rootMargin: '350px 0px' });
-const playObserver = new IntersectionObserver(entries => {
-  for (const entry of entries) {
-    const demo = demos.find(item => item.video === entry.target);
-    demo.inView = entry.isIntersecting && entry.intersectionRatio >= 0.2;
-    syncVideo(demo);
-  }
-}, { threshold: [0, 0.2, 0.65] });
-
-for (const demo of demos) {
-  // The observer owns autoplay so that offscreen media cannot start on load.
-  demo.video.autoplay = false;
-  demo.video.muted = true;
-  loadObserver.observe(demo.video);
-  playObserver.observe(demo.video);
-  demo.video.addEventListener('play', () => {
-    if (expandedDemo === demo) demo.manual = 'playing';
-    showPlaybackState(demo);
-  });
-  demo.video.addEventListener('pause', () => {
-    if (expandedDemo === demo && !document.hidden) demo.manual = 'paused';
-    showPlaybackState(demo);
-  });
-  demo.video.addEventListener('error', () => {
-    demo.button.textContent = 'Повторить';
-    demo.button.setAttribute('aria-label', `Повторить загрузку видео: ${demo.label}`);
-  });
-  demo.button.addEventListener('click', () => {
-    if (demo.video.error) {
-      demo.video.removeAttribute('src');
-      loadVideo(demo);
-    }
-    demo.manual = demo.video.paused ? 'playing' : 'paused';
-    syncVideo(demo);
-  });
-  const fullscreenButton = demo.figure.querySelector('[data-fullscreen]');
-  fullscreenButton.addEventListener('click', () => {
-    loadVideo(demo);
-    expandedDemo = demo;
-    videoDialog.querySelector('.wb-video-dialog-top p').textContent = demo.label;
-    demo.video.controls = true;
-    videoDialog.showModal();
-    expandedFrame.append(demo.video);
-    syncAllVideos();
-  });
-  showPlaybackState(demo);
-}
 document.addEventListener('visibilitychange', syncAllVideos);
-reducedMotion.addEventListener('change', () => {
-  demos.forEach(demo => { demo.manual = null; });
-  syncAllVideos();
-});
+addEventListener('pageshow', syncAllVideos);
+addEventListener('focus', syncAllVideos);
+// Recover autoplay after an embedded browser suspends and restores its renderer.
+setInterval(syncAllVideos, 1000);
+syncAllVideos();

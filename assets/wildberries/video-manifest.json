@@ -1,51 +1,86 @@
 [
   {
-    "name": "bid-calculator",
-    "bytes": 1125881,
-    "original": "bid-calculator.mov",
-    "poster": "posters/bid-calculator.webp",
-    "video": "videos/bid-calculator.mp4"
+    "name": "quick-actions",
+    "section": "Быстрые действия на главной",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 15.05.42.mov",
+    "sourceSha256": "abbf2df04dbde54db8e915847deb9fb54ec9dda1dba235826d4929686054bda3",
+    "duration": 18.77,
+    "video": "videos/quick-actions-abbf2df0-compat.mp4",
+    "webm": "videos/quick-actions-abbf2df0-compat.webm",
+    "poster": "posters/quick-actions-abbf2df0-compat.webp",
+    "bytes": 2349272,
+    "webmBytes": 1906151
   },
   {
     "name": "cabinet",
-    "bytes": 875071,
-    "original": "cabinet.mov",
-    "poster": "posters/cabinet.webp",
-    "video": "videos/cabinet.mp4"
-  },
-  {
-    "name": "campaign",
-    "bytes": 624973,
-    "original": "campaign.mp4",
-    "poster": "posters/campaign.webp",
-    "video": "videos/campaign.mp4"
-  },
-  {
-    "name": "creation",
-    "bytes": 1783234,
-    "original": "creation.mov",
-    "poster": "posters/creation.webp",
-    "video": "videos/creation.mp4"
-  },
-  {
-    "name": "quick-actions",
-    "bytes": 1227772,
-    "original": "quick-actions.mov",
-    "poster": "posters/quick-actions.webp",
-    "video": "videos/quick-actions.mp4"
+    "section": "Первый визит в рекламный кабинет",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 15.34.14.mov",
+    "sourceSha256": "f37bef8fda342e8ce92797a1062616975b2a15516ceb93cd295e858c15b2eee0",
+    "duration": 12.77,
+    "video": "videos/cabinet-f37bef8f-compat.mp4",
+    "webm": "videos/cabinet-f37bef8f-compat.webm",
+    "poster": "posters/cabinet-f37bef8f-compat.webp",
+    "bytes": 1522598,
+    "webmBytes": 1423137
   },
   {
     "name": "sandbox",
-    "bytes": 854116,
-    "original": "sandbox.mov",
-    "poster": "posters/sandbox.webp",
-    "video": "videos/sandbox.mp4"
+    "section": "Знакомство с учебным режимом",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 15.40.32.mov",
+    "sourceSha256": "1cebd4e81312947795bea2d9aab6d76d966291bf14dbf7633ad777e615b78f26",
+    "duration": 19.13,
+    "video": "videos/sandbox-1cebd4e8-compat.mp4",
+    "webm": "videos/sandbox-1cebd4e8-compat.webm",
+    "poster": "posters/sandbox-1cebd4e8-compat.webp",
+    "bytes": 1445356,
+    "webmBytes": 1359248
+  },
+  {
+    "name": "creation",
+    "section": "Создание кампании, товары и бюджет",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 16.16.35.mov",
+    "sourceSha256": "bdf9571fc8bc1648fb8ea41327fcfa7571d999f5fda05e536690f1342db0d782",
+    "duration": 33.3,
+    "video": "videos/creation-bdf9571f-compat.mp4",
+    "webm": "videos/creation-bdf9571f-compat.webm",
+    "poster": "posters/creation-bdf9571f-compat.webp",
+    "bytes": 2684917,
+    "webmBytes": 2762781
+  },
+  {
+    "name": "bid-calculator",
+    "section": "Калькулятор ставки",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 16.19.55.mov",
+    "sourceSha256": "e0defd42276f1b205f8455217f9f1a38b1d9467c2e0b9e7ba4d8ff26d20e8ebc",
+    "duration": 21.63,
+    "video": "videos/bid-calculator-e0defd42-compat.mp4",
+    "webm": "videos/bid-calculator-e0defd42-compat.webm",
+    "poster": "posters/bid-calculator-e0defd42-compat.webp",
+    "bytes": 1492934,
+    "webmBytes": 1601760
+  },
+  {
+    "name": "campaign",
+    "section": "Внутренняя страница кампании",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 16.43.35 (online-video-cutter.com).mp4",
+    "sourceSha256": "a11bac05dca8fb74f768f0ee6fca11706ad9c173b1aa2e9b742137f2faa3d4ad",
+    "duration": 9.43,
+    "video": "videos/campaign-a11bac05-compat.mp4",
+    "webm": "videos/campaign-a11bac05-compat.webm",
+    "poster": "posters/campaign-a11bac05-compat.webp",
+    "bytes": 1097419,
+    "webmBytes": 982189
   },
   {
     "name": "time-skip",
-    "bytes": 1981911,
-    "original": "time-skip.mp4",
-    "poster": "posters/time-skip.webp",
-    "video": "videos/time-skip.mp4"
+    "section": "Прокрутка времени и статистика",
+    "original": "видео Wildberries/Запись экрана 2025-08-05 в 16.43.35 (online-video-cutter.com) (1).mp4",
+    "sourceSha256": "41e0a6ee946393ce71e77714f1f9b94815e84b98c6f1d2499ad4c2ad0e64ddb8",
+    "duration": 20.43,
+    "video": "videos/time-skip-41e0a6ee-compat.mp4",
+    "webm": "videos/time-skip-41e0a6ee-compat.webm",
+    "poster": "posters/time-skip-41e0a6ee-compat.webp",
+    "bytes": 2975428,
+    "webmBytes": 2370477
   }
 ]

@@ -37,6 +37,12 @@ a:focus-visible { outline: 2px solid var(--control); outline-offset: 5px; }
 .skip-link { position: fixed; top: -100px; left: 20px; z-index: 20; padding: 12px 18px; background: white; border-radius: 30px; }
 .skip-link:focus { top: 20px; }
 
+.section-navigation { display: flex; flex-direction: column; align-items: stretch; gap: 4px; min-width: 0; }
+.section-navigation a { display: flex; align-items: center; min-height: 40px; min-width: 0; padding: 9px 12px; border-radius: 10px; color: var(--muted); font-size: 14px; font-weight: 500; line-height: 1.5; overflow-wrap: anywhere; transition: color 180ms ease, background 180ms ease; }
+.section-navigation a:hover { color: var(--ink); background: #efefef; }
+.section-navigation a[aria-current="location"] { color: var(--ink); background: #e9e9e9; }
+.section-navigation a:focus-visible { outline-offset: 2px; }
+
 .header { position: absolute; top: 0; left: 0; width: 100%; z-index: 10; }
 .navigation {
   position: fixed;
